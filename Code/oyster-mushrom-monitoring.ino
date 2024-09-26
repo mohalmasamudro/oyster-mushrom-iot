@@ -29,23 +29,23 @@ const int phpin = 35;
 const int humpin = 32;
 
 // Variable Sensor Lingkungan
-int lux; // Cahaya
-int temperature, humidity, pressure; // Sensor BME
+float lux; // Cahaya
+float temperature, humidity, pressure; // Sensor BME
 
 // Variable Sensor Baglog
-int adcph; // pH
+float adcph; // pH
 float voltage;
-int pH;
-int adchum; // Kelembaban
-int hum;
+float pH;
+float adchum; // Kelembaban
+float hum;
 
 // variable sensor MQ135
-int CO2 = 0.0;
-int NH4 = 0.0;
-int CO = 0.0;
-int Alcohol = 0.0;
-int Aceton = 0.0;
-int Toluen  = 0.0;
+float CO2 = 0.0;
+float NH4 = 0.0;
+float CO = 0.0;
+float Alcohol = 0.0;
+float Aceton = 0.0;
+float Toluen  = 0.0;
 
 // paket data
 char data_gas[100];
